@@ -1,0 +1,3 @@
+sphinx.hmm: model/cmu-sphinx-5prealpha/en-us
+sphinx.lm: model/cmu-sphinx-5prealpha/en-us.lm.dmp
+sphinx.dict: model/cmu-sphinx-5prealpha/cmudict-en-us.dict
