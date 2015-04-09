@@ -12,17 +12,20 @@ Later, the server should handle the conversion.
 
 
 #### Send audio stream to server
+>
 ```
 POST /v1/raw/<recognizer_id>
 ```
-> ##### Body<br/>
+##### Body<br/>
 data of audio
 
+
 #### Send url of audio to server, server downloads the audio by itself
+>
 ```
 GET /v1/wav/<recognizer_id>
 ```
-> ##### Parameters
+##### Parameters
 Name  | Type | Description
 ----  | ---- | -----------
 url   |string|**(required)** url of audio
