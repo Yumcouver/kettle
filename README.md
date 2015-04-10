@@ -20,7 +20,6 @@ POST /v1/recognize/<recognizer_id>
 Name          | Type | Description
 ----          | ---- | -----------
 Content-Type  |string| [format of audio](http://webdesign.about.com/od/multimedia/a/mime-types-by-content-type.htm)
-
 ##### Body<br/>
 data of audio
 
@@ -34,7 +33,6 @@ GET /v1/recognize/<recognizer_id>
 Name          | Type | Description
 ----          | ---- | -----------
 Content-Type  |string| [format of audio](http://webdesign.about.com/od/multimedia/a/mime-types-by-content-type.htm)
-
 ##### Parameters
 Name  | Type | Description
 ----  | ---- | -----------
