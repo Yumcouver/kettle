@@ -14,8 +14,13 @@ Later, the server should handle the conversion.
 #### Send audio stream to server
 >
 ```
-POST /v1/raw/<recognizer_id>
+POST /v1/recognize/<recognizer_id>
 ```
+##### Header
+Name          | Type | Description
+----          | ---- | -----------
+Content-Type  |string| [format of audio](http://webdesign.about.com/od/multimedia/a/mime-types-by-content-type.htm)
+
 ##### Body<br/>
 data of audio
 
@@ -23,8 +28,13 @@ data of audio
 #### Send url of audio to server, server downloads the audio by itself
 >
 ```
-GET /v1/wav/<recognizer_id>
+GET /v1/recognize/<recognizer_id>
 ```
+##### Header
+Name          | Type | Description
+----          | ---- | -----------
+Content-Type  |string| [format of audio](http://webdesign.about.com/od/multimedia/a/mime-types-by-content-type.htm)
+
 ##### Parameters
 Name  | Type | Description
 ----  | ---- | -----------
